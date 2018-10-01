@@ -1,7 +1,7 @@
 from django.urls import reverse
 from rest_framework.test import APITestCase, APIClient
 from rest_framework.views import status
-from .model import Songs
+from .models import Songs
 from .serializers import SongsSerializer
 
 
